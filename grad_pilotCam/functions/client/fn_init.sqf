@@ -1,0 +1,1 @@
+if (!(player getVariable ["GRAD_pilotTracking_isPilot", false])) exitWith {};
