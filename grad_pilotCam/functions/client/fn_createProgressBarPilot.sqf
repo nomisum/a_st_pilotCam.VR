@@ -4,3 +4,5 @@ _progressBar ctrlSetPosition [safezoneX+0.452*safezoneW,safezoneY+0.725011110*sa
 _progressBar ctrlSetTextColor [1,1,1,1];
 _progressBar progressSetPosition 0;
 _progressBar ctrlCommit 0;
+
+_progressBar

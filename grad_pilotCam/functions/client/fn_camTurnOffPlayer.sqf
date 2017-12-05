@@ -1,7 +1,7 @@
-params ["_cam", "_pipcamVehicle"];
+params ["_pipCam", "_pipcamVehicle"];
 
-_cam cameraEffect ["terminate","back"];
-camDestroy _cam;
+_pipCam cameraEffect ["terminate","back"];
+camDestroy _pipCam;
 ["renderPIPtarget0"] call BIS_fnc_PIP;
 detach _pipcamVehicle;
 deleteVehicle _pipcamVehicle;

@@ -4,10 +4,13 @@ class GRAD_pilotCam {
 		file = grad_pilotCam\functions\client;
 
 		class addInteractionToCams;
-		class camTurnOnPilot;
-		class camTurnOnPlayers;
 		class camTurnOffPilot;
-		class camTurnOffPlayers;
+		class camTurnOffPlayer;
+		class camTurnOnPilot;
+		class camTurnOnPlayer;
+		class createCameraEffectsPilot;
+		class createProgressBarPilot;
+		class createProgressBarPlayer;
 
 		class init { preInit = 1; };
 	};
@@ -15,7 +18,6 @@ class GRAD_pilotCam {
 	class server {
 		file = grad_pilotCam\functions\server;
 
-		class handleProgress;
-
+		class turnCamOnServer;
 	};
 };

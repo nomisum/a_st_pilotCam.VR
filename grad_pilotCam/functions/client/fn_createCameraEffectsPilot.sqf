@@ -21,3 +21,5 @@ private _background = _display ctrlCreate ["RscPicture",-1];
 _background ctrlSetText "GRAD_pilotCam\data\campic6.paa";
 _background ctrlSetPosition [safezoneX,safezoneY,safeZoneW, safeZoneH];
 _background ctrlCommit 0;
+
+[_ppcolor, _ppgrain, _display, _background]
